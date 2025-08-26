@@ -31,7 +31,7 @@ html = """
 
 <style>
 #container {
-  height: 750px;
+  height: 1200px;
   min-width: 310px;
 }
 </style>
@@ -125,12 +125,11 @@ class handler(http.server.SimpleHTTPRequestHandler):
 
 # handle ctrl-c KeyboardInterrupt to exit the program gracefully
 try:
-    while True:
-        # run http server
-        with socketserver.TCPServer(("", PORT), handler) as httpd:
-            print("serving at port", PORT)
-            httpd.serve_forever()
-        pass
+    # run http server
+    with socketserver.TCPServer(("", PORT), handler) as httpd:
+        print("serving at port", PORT)
+        httpd.serve_forever()
+    pass
 except KeyboardInterrupt:
     print("\nExiting gracefully...")
     # traceback.print_exc()

@@ -25,10 +25,10 @@ aggs = []
 for a in client.list_aggs(
     "AAPL",
     1,
-    "hour",
-    "2023-01-30",
-    "2023-02-03",
-    limit=50000,
+    "day",
+    "2024-01-30",
+    "2025-02-03",
+    limit=1000,
 ):
     aggs.append(a)
 
