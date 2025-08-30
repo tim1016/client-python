@@ -1,0 +1,37 @@
+Column,Type,Description
+date,string,Trading date in YYYY-MM-DD format
+ticker,string,"Options contract ticker symbol (e.g., O:SPY241230C00600000)"
+contract_type,string,Type of contract (call or put)
+exercise_style,string,Exercise style (american or european)
+expiration_date,string,Contract expiration date in YYYY-MM-DD format
+shares_per_contract,integer,Number of shares per contract (typically 100)
+strike_price,float,Strike price of the option contract
+day_change,float,Price change for the trading day
+day_change_percent,float,Percentage change for the trading day
+day_close,float,Closing price for the trading day
+day_high,float,Highest price during the trading day
+day_low,float,Lowest price during the trading day
+day_open,float,Opening price for the trading day
+day_previous_close,float,Previous day's closing price
+day_volume,integer,Trading volume for the day
+day_vwap,float,Volume-weighted average price for the day
+day_last_updated,integer,Unix timestamp (nanoseconds) of last day data update
+delta,float,Delta Greek - sensitivity to underlying price changes
+gamma,float,Gamma Greek - rate of change of delta
+theta,float,Theta Greek - time decay sensitivity
+vega,float,Vega Greek - volatility sensitivity
+implied_volatility,float,Implied volatility of the option
+break_even_price,float,Break-even price for the option position
+open_interest,integer,Number of outstanding contracts
+ask,float,Current ask price
+ask_size,integer,Number of contracts at ask price
+bid,float,Current bid price
+bid_size,integer,Number of contracts at bid price
+midpoint,float,Midpoint between bid and ask
+quote_last_updated,integer,Unix timestamp (nanoseconds) of last quote update
+quote_timeframe,string,Quote timeframe (REAL-TIME or DELAYED)
+underlying_ticker,string,Ticker symbol of underlying asset (SPY)
+underlying_price,float,Current price of underlying asset
+underlying_change_to_break_even,float,Points needed for underlying to reach break-even
+underlying_last_updated,integer,Unix timestamp (nanoseconds) of underlying price update
+underlying_timeframe,string,Underlying data timeframe (REAL-TIME or DELAYED)
