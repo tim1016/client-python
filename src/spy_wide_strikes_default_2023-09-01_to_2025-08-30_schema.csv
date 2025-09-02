@@ -1,0 +1,216 @@
+Column,Type,Description
+date,object,Trading date in YYYY-MM-DD format
+spy_open,float64,SPY opening price for the day
+spy_high,float64,SPY highest price for the day
+spy_low,float64,SPY lowest price for the day
+spy_close,float64,SPY closing price for the day
+spy_close_prev_day,float64,SPY previous day closing price
+spy_volume,float64,SPY trading volume for the day
+expiration_date,object,Option expiration date
+atm_strike,int64,Strike price for atm
+atm_call_ticker,object,Option ticker symbol for atm call
+atm_call_open,float64,Open price for atm call option
+atm_call_high,float64,High price for atm call option
+atm_call_low,float64,Low price for atm call option
+atm_call_close,float64,Close price for atm call option
+atm_call_volume,int64,Trading volume for atm call option
+atm_call_vwap,float64,Volume-weighted average price for atm call option
+atm_call_prev_open,float64,Previous day open for atm call option
+atm_call_prev_close,float64,Previous day close for atm call option
+atm_call_prev_volume,int64,Previous day volume for atm call option
+atm_call_prev_vwap,float64,Previous day vwap for atm call option
+atm_put_ticker,object,Option ticker symbol for atm put
+atm_put_open,float64,Open price for atm put option
+atm_put_high,float64,High price for atm put option
+atm_put_low,float64,Low price for atm put option
+atm_put_close,float64,Close price for atm put option
+atm_put_volume,int64,Trading volume for atm put option
+atm_put_vwap,float64,Volume-weighted average price for atm put option
+atm_put_prev_open,float64,Previous day open for atm put option
+atm_put_prev_close,float64,Previous day close for atm put option
+atm_put_prev_volume,int64,Previous day volume for atm put option
+atm_put_prev_vwap,float64,Previous day vwap for atm put option
+plus_1_strike,int64,Strike price for plus_1
+plus_1_call_ticker,object,Option ticker symbol for plus_1 call
+plus_1_call_open,float64,Open price for plus_1 call option
+plus_1_call_high,float64,High price for plus_1 call option
+plus_1_call_low,float64,Low price for plus_1 call option
+plus_1_call_close,float64,Close price for plus_1 call option
+plus_1_call_volume,int64,Trading volume for plus_1 call option
+plus_1_call_vwap,float64,Volume-weighted average price for plus_1 call option
+plus_1_call_prev_open,float64,Previous day open for plus_1 call option
+plus_1_call_prev_close,float64,Previous day close for plus_1 call option
+plus_1_call_prev_volume,float64,Previous day volume for plus_1 call option
+plus_1_call_prev_vwap,float64,Previous day vwap for plus_1 call option
+plus_1_put_ticker,object,Option ticker symbol for plus_1 put
+plus_1_put_open,float64,Open price for plus_1 put option
+plus_1_put_high,float64,High price for plus_1 put option
+plus_1_put_low,float64,Low price for plus_1 put option
+plus_1_put_close,float64,Close price for plus_1 put option
+plus_1_put_volume,int64,Trading volume for plus_1 put option
+plus_1_put_vwap,float64,Volume-weighted average price for plus_1 put option
+plus_1_put_prev_open,float64,Previous day open for plus_1 put option
+plus_1_put_prev_close,float64,Previous day close for plus_1 put option
+plus_1_put_prev_volume,float64,Previous day volume for plus_1 put option
+plus_1_put_prev_vwap,float64,Previous day vwap for plus_1 put option
+plus_2_strike,int64,Strike price for plus_2
+plus_2_call_ticker,object,Option ticker symbol for plus_2 call
+plus_2_call_open,float64,Open price for plus_2 call option
+plus_2_call_high,float64,High price for plus_2 call option
+plus_2_call_low,float64,Low price for plus_2 call option
+plus_2_call_close,float64,Close price for plus_2 call option
+plus_2_call_volume,float64,Trading volume for plus_2 call option
+plus_2_call_vwap,float64,Volume-weighted average price for plus_2 call option
+plus_2_call_prev_open,float64,Previous day open for plus_2 call option
+plus_2_call_prev_close,float64,Previous day close for plus_2 call option
+plus_2_call_prev_volume,float64,Previous day volume for plus_2 call option
+plus_2_call_prev_vwap,float64,Previous day vwap for plus_2 call option
+plus_2_put_ticker,object,Option ticker symbol for plus_2 put
+plus_2_put_open,float64,Open price for plus_2 put option
+plus_2_put_high,float64,High price for plus_2 put option
+plus_2_put_low,float64,Low price for plus_2 put option
+plus_2_put_close,float64,Close price for plus_2 put option
+plus_2_put_volume,float64,Trading volume for plus_2 put option
+plus_2_put_vwap,float64,Volume-weighted average price for plus_2 put option
+plus_2_put_prev_open,float64,Previous day open for plus_2 put option
+plus_2_put_prev_close,float64,Previous day close for plus_2 put option
+plus_2_put_prev_volume,float64,Previous day volume for plus_2 put option
+plus_2_put_prev_vwap,float64,Previous day vwap for plus_2 put option
+plus_3_strike,int64,Strike price for plus_3
+plus_3_call_ticker,object,Option ticker symbol for plus_3 call
+plus_3_call_open,float64,Open price for plus_3 call option
+plus_3_call_high,float64,High price for plus_3 call option
+plus_3_call_low,float64,Low price for plus_3 call option
+plus_3_call_close,float64,Close price for plus_3 call option
+plus_3_call_volume,float64,Trading volume for plus_3 call option
+plus_3_call_vwap,float64,Volume-weighted average price for plus_3 call option
+plus_3_call_prev_open,float64,Previous day open for plus_3 call option
+plus_3_call_prev_close,float64,Previous day close for plus_3 call option
+plus_3_call_prev_volume,float64,Previous day volume for plus_3 call option
+plus_3_call_prev_vwap,float64,Previous day vwap for plus_3 call option
+plus_3_put_ticker,object,Option ticker symbol for plus_3 put
+plus_3_put_open,float64,Open price for plus_3 put option
+plus_3_put_high,float64,High price for plus_3 put option
+plus_3_put_low,float64,Low price for plus_3 put option
+plus_3_put_close,float64,Close price for plus_3 put option
+plus_3_put_volume,float64,Trading volume for plus_3 put option
+plus_3_put_vwap,float64,Volume-weighted average price for plus_3 put option
+plus_3_put_prev_open,float64,Previous day open for plus_3 put option
+plus_3_put_prev_close,float64,Previous day close for plus_3 put option
+plus_3_put_prev_volume,float64,Previous day volume for plus_3 put option
+plus_3_put_prev_vwap,float64,Previous day vwap for plus_3 put option
+plus_4_strike,int64,Strike price for plus_4
+plus_4_call_ticker,object,Option ticker symbol for plus_4 call
+plus_4_call_open,float64,Open price for plus_4 call option
+plus_4_call_high,float64,High price for plus_4 call option
+plus_4_call_low,float64,Low price for plus_4 call option
+plus_4_call_close,float64,Close price for plus_4 call option
+plus_4_call_volume,float64,Trading volume for plus_4 call option
+plus_4_call_vwap,float64,Volume-weighted average price for plus_4 call option
+plus_4_call_prev_open,float64,Previous day open for plus_4 call option
+plus_4_call_prev_close,float64,Previous day close for plus_4 call option
+plus_4_call_prev_volume,float64,Previous day volume for plus_4 call option
+plus_4_call_prev_vwap,float64,Previous day vwap for plus_4 call option
+plus_4_put_ticker,object,Option ticker symbol for plus_4 put
+plus_4_put_open,float64,Open price for plus_4 put option
+plus_4_put_high,float64,High price for plus_4 put option
+plus_4_put_low,float64,Low price for plus_4 put option
+plus_4_put_close,float64,Close price for plus_4 put option
+plus_4_put_volume,float64,Trading volume for plus_4 put option
+plus_4_put_vwap,float64,Volume-weighted average price for plus_4 put option
+plus_4_put_prev_open,float64,Previous day open for plus_4 put option
+plus_4_put_prev_close,float64,Previous day close for plus_4 put option
+plus_4_put_prev_volume,float64,Previous day volume for plus_4 put option
+plus_4_put_prev_vwap,float64,Previous day vwap for plus_4 put option
+plus_5_strike,int64,Strike price for plus_5
+plus_5_call_ticker,object,Option ticker symbol for plus_5 call
+plus_5_call_open,float64,Open price for plus_5 call option
+plus_5_call_high,float64,High price for plus_5 call option
+plus_5_call_low,float64,Low price for plus_5 call option
+plus_5_call_close,float64,Close price for plus_5 call option
+plus_5_call_volume,float64,Trading volume for plus_5 call option
+plus_5_call_vwap,float64,Volume-weighted average price for plus_5 call option
+plus_5_call_prev_open,float64,Previous day open for plus_5 call option
+plus_5_call_prev_close,float64,Previous day close for plus_5 call option
+plus_5_call_prev_volume,float64,Previous day volume for plus_5 call option
+plus_5_call_prev_vwap,float64,Previous day vwap for plus_5 call option
+plus_5_put_ticker,object,Option ticker symbol for plus_5 put
+plus_5_put_open,float64,Open price for plus_5 put option
+plus_5_put_high,float64,High price for plus_5 put option
+plus_5_put_low,float64,Low price for plus_5 put option
+plus_5_put_close,float64,Close price for plus_5 put option
+plus_5_put_volume,float64,Trading volume for plus_5 put option
+plus_5_put_vwap,float64,Volume-weighted average price for plus_5 put option
+plus_5_put_prev_open,float64,Previous day open for plus_5 put option
+plus_5_put_prev_close,float64,Previous day close for plus_5 put option
+plus_5_put_prev_volume,float64,Previous day volume for plus_5 put option
+plus_5_put_prev_vwap,float64,Previous day vwap for plus_5 put option
+minus_1_strike,int64,Strike price for minus_1
+minus_1_call_ticker,object,Option ticker symbol for minus_1 call
+minus_1_call_open,float64,Open price for minus_1 call option
+minus_1_call_high,float64,High price for minus_1 call option
+minus_1_call_low,float64,Low price for minus_1 call option
+minus_1_call_close,float64,Close price for minus_1 call option
+minus_1_call_volume,int64,Trading volume for minus_1 call option
+minus_1_call_vwap,float64,Volume-weighted average price for minus_1 call option
+minus_1_call_prev_open,float64,Previous day open for minus_1 call option
+minus_1_call_prev_close,float64,Previous day close for minus_1 call option
+minus_1_call_prev_volume,int64,Previous day volume for minus_1 call option
+minus_1_call_prev_vwap,float64,Previous day vwap for minus_1 call option
+minus_1_put_ticker,object,Option ticker symbol for minus_1 put
+minus_1_put_open,float64,Open price for minus_1 put option
+minus_1_put_high,float64,High price for minus_1 put option
+minus_1_put_low,float64,Low price for minus_1 put option
+minus_1_put_close,float64,Close price for minus_1 put option
+minus_1_put_volume,int64,Trading volume for minus_1 put option
+minus_1_put_vwap,float64,Volume-weighted average price for minus_1 put option
+minus_1_put_prev_open,float64,Previous day open for minus_1 put option
+minus_1_put_prev_close,float64,Previous day close for minus_1 put option
+minus_1_put_prev_volume,int64,Previous day volume for minus_1 put option
+minus_1_put_prev_vwap,float64,Previous day vwap for minus_1 put option
+minus_2_strike,int64,Strike price for minus_2
+minus_2_call_ticker,object,Option ticker symbol for minus_2 call
+minus_2_call_open,float64,Open price for minus_2 call option
+minus_2_call_high,float64,High price for minus_2 call option
+minus_2_call_low,float64,Low price for minus_2 call option
+minus_2_call_close,float64,Close price for minus_2 call option
+minus_2_call_volume,int64,Trading volume for minus_2 call option
+minus_2_call_vwap,float64,Volume-weighted average price for minus_2 call option
+minus_2_call_prev_open,float64,Previous day open for minus_2 call option
+minus_2_call_prev_close,float64,Previous day close for minus_2 call option
+minus_2_call_prev_volume,int64,Previous day volume for minus_2 call option
+minus_2_call_prev_vwap,float64,Previous day vwap for minus_2 call option
+minus_2_put_ticker,object,Option ticker symbol for minus_2 put
+minus_2_put_open,float64,Open price for minus_2 put option
+minus_2_put_high,float64,High price for minus_2 put option
+minus_2_put_low,float64,Low price for minus_2 put option
+minus_2_put_close,float64,Close price for minus_2 put option
+minus_2_put_volume,int64,Trading volume for minus_2 put option
+minus_2_put_vwap,float64,Volume-weighted average price for minus_2 put option
+minus_2_put_prev_open,float64,Previous day open for minus_2 put option
+minus_2_put_prev_close,float64,Previous day close for minus_2 put option
+minus_2_put_prev_volume,int64,Previous day volume for minus_2 put option
+minus_2_put_prev_vwap,float64,Previous day vwap for minus_2 put option
+minus_3_strike,int64,Strike price for minus_3
+minus_3_call_ticker,object,Option ticker symbol for minus_3 call
+minus_3_call_open,float64,Open price for minus_3 call option
+minus_3_call_high,float64,High price for minus_3 call option
+minus_3_call_low,float64,Low price for minus_3 call option
+minus_3_call_close,float64,Close price for minus_3 call option
+minus_3_call_volume,int64,Trading volume for minus_3 call option
+minus_3_call_vwap,float64,Volume-weighted average price for minus_3 call option
+minus_3_call_prev_open,float64,Previous day open for minus_3 call option
+minus_3_call_prev_close,float64,Previous day close for minus_3 call option
+minus_3_call_prev_volume,int64,Previous day volume for minus_3 call option
+minus_3_call_prev_vwap,float64,Previous day vwap for minus_3 call option
+minus_3_put_ticker,object,Option ticker symbol for minus_3 put
+minus_3_put_open,float64,Open price for minus_3 put option
+minus_3_put_high,float64,High price for minus_3 put option
+minus_3_put_low,float64,Low price for minus_3 put option
+minus_3_put_close,float64,Close price for minus_3 put option
+minus_3_put_volume,int64,Trading volume for minus_3 put option
+minus_3_put_vwap,float64,Volume-weighted average price for minus_3 put option
+minus_3_put_prev_open,float64,Previous day open for minus_3 put option
+minus_3_put_prev_close,float64,Previous day close for minus_3 put option
+minus_3_put_prev_volume,int64,Previous day volume for minus_3 put option
+minus_3_put_prev_vwap,float64,Previous day vwap for minus_3 put option
