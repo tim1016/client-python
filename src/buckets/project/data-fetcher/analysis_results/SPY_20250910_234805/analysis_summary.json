@@ -1,0 +1,30 @@
+{
+  "symbol": "SPY",
+  "data_file": "./market_data/raw/SPY_2025-01-01_to_2025-09-16_raw.csv",
+  "analysis_timestamp": "2025-09-10T23:50:04.286645",
+  "bars_analyzed": 144073,
+  "date_range": {
+    "start": "2025-01-02 03:00:00",
+    "end": "2025-09-10 19:00:00"
+  },
+  "offset_results": [
+    {
+      "offset": 0,
+      "total_patterns": 48024,
+      "unique_patterns": 27,
+      "top_pattern": "PPP"
+    },
+    {
+      "offset": 1,
+      "total_patterns": 48023,
+      "unique_patterns": 27,
+      "top_pattern": "PPP"
+    },
+    {
+      "offset": 2,
+      "total_patterns": 48023,
+      "unique_patterns": 27,
+      "top_pattern": "PPP"
+    }
+  ]
+}

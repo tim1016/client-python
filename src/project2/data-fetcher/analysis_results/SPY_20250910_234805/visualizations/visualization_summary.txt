@@ -1,0 +1,55 @@
+================================================================================
+THREE-MINUTE PATTERN VISUALIZATION SUMMARY
+================================================================================
+Symbol: SPY
+Analysis Directory: SPY_20250910_234805/
+Generated: 2025-09-10 23:58:55
+
+ANALYSIS INFORMATION
+----------------------------------------
+Data File: ./market_data/raw/SPY_2025-01-01_to_2025-09-16_raw.csv
+Bars Analyzed: 144073
+Date Range: 2025-01-02 03:00:00 to 2025-09-10 19:00:00
+
+VISUALIZATIONS GENERATED
+----------------------------------------
+  • dashboard_offset_0.png
+  • dashboard_offset_1.png
+  • dashboard_offset_2.png
+  • offset_comparison.png
+  • profitability_heatmap_offset_0.png
+  • profitability_heatmap_offset_1.png
+  • profitability_heatmap_offset_2.png
+  • timeline_offset_0.png
+  • timeline_offset_1.png
+  • timeline_offset_2.png
+
+Total visualizations: 10
+
+================================================================================
+PATTERN STATISTICS BY OFFSET
+================================================================================
+
+Offset 0:
+----------------------------------------
+  Unique patterns: 27
+  Total occurrences: 48024
+  Mean performance: $-0.002800
+  Best pattern: PPP ($0.425800)
+  Worst pattern: NNN ($-0.439000)
+
+Offset 1:
+----------------------------------------
+  Unique patterns: 27
+  Total occurrences: 48023
+  Mean performance: $-0.002585
+  Best pattern: PPP ($0.416500)
+  Worst pattern: NNN ($-0.441500)
+
+Offset 2:
+----------------------------------------
+  Unique patterns: 27
+  Total occurrences: 48023
+  Mean performance: $-0.002574
+  Best pattern: PPP ($0.421600)
+  Worst pattern: NNN ($-0.441500)

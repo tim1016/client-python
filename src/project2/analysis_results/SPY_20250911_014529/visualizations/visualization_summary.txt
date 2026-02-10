@@ -1,0 +1,49 @@
+================================================================================
+PATTERN ANALYSIS VISUALIZATION SUMMARY
+================================================================================
+Symbol: 
+Generated: 2025-09-11 01:53:34
+Analysis Directory: analysis_results/SPY_20250911_014529/
+
+GENERATED VISUALIZATIONS:
+--------------------------------------------------
+1. pattern_performance_analysis.png - Pattern performance comparison
+2. basket_analysis_charts.png - Contiguous basket analysis
+3. pattern_heatmaps.png - Pattern metric heatmaps
+4. time_series_analysis.png - Time series of returns
+5. validation_dashboard.png - Mathematical validation dashboard
+
+KEY FINDINGS SUMMARY:
+--------------------------------------------------
+
+Offset 0:
+  Total Patterns: 27
+  Total Baskets: 7717
+  Change Discrepancy: $0.000000
+  Mathematical Validation: {'change_matches': True, 'time_matches': False}
+  Best Pattern: PPP ($0.281100)
+
+Offset 1:
+  Total Patterns: 27
+  Total Baskets: 7717
+  Change Discrepancy: $0.000000
+  Mathematical Validation: {'change_matches': True, 'time_matches': False}
+  Best Pattern: PPP ($0.284600)
+
+Offset 2:
+  Total Patterns: 27
+  Total Baskets: 7716
+  Change Discrepancy: $0.000000
+  Mathematical Validation: {'change_matches': True, 'time_matches': False}
+  Best Pattern: PPP ($0.291600)
+
+OVERALL SUMMARY:
+Total Unique Patterns Across All Offsets: 81
+Total Baskets Analyzed: 23150
+Mathematical Validation Status: FAILED
+
+Next Steps:
+1. Review validation dashboard for any mathematical inconsistencies
+2. Analyze pattern performance charts for trading opportunities
+3. Examine time series analysis for market timing insights
+4. Consider statistical significance of pattern frequencies

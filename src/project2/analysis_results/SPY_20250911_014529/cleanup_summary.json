@@ -1,0 +1,9 @@
+{
+  "total_bars": 23152,
+  "removed_bars": 0,
+  "gap_minutes": 2077,
+  "outliers_removed": 0,
+  "zero_volume_bars": 0,
+  "duplicate_timestamps": 0,
+  "cleaned_bars": 23152
+}

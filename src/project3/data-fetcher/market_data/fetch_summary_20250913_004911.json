@@ -1,0 +1,8 @@
+{
+  "SPY": {
+    "success": true,
+    "bars_count": 23152,
+    "data_file": "market_data/raw/SPY_2025-08-01_to_2025-09-10_raw.csv",
+    "metadata_file": "market_data/metadata/SPY_2025-08-01_to_2025-09-10_metadata.json"
+  }
+}

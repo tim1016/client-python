@@ -1,0 +1,264 @@
+{
+  "offset": 2,
+  "total_baskets": 48023,
+  "remainder_bars": 2,
+  "total_contiguous_change": 63.76999999999998,
+  "remainder_change": 0.08000000000004093,
+  "accounted_total_change": 63.85000000000002,
+  "actual_total_change": 63.85000000000002,
+  "change_discrepancy": 0.0,
+  "total_contiguous_time": 237772.0,
+  "remainder_time": 1.0,
+  "accounted_total_time": 237773.0,
+  "actual_total_time": 362398.0,
+  "time_discrepancy": 124625.0,
+  "mathematical_consistency": {
+    "change_matches": true,
+    "time_matches": false
+  },
+  "pattern_type_breakdown": {
+    "NPO": {
+      "count": 502,
+      "total_change": -2.1089000000002898,
+      "total_time": 1753.0,
+      "avg_change": -0.004200996015936832,
+      "avg_duration": 3.49203187250996,
+      "change_std": 0.09262837145394925,
+      "duration_std": 21.45659326818391
+    },
+    "PNP": {
+      "count": 5532,
+      "total_change": 723.540412999997,
+      "total_time": 31383.0,
+      "avg_change": 0.13079183170643474,
+      "avg_duration": 5.672993492407809,
+      "change_std": 0.2928520018567675,
+      "duration_std": 94.12553102237261
+    },
+    "PPN": {
+      "count": 5294,
+      "total_change": 739.7616550000007,
+      "total_time": 25794.0,
+      "avg_change": 0.13973586229694007,
+      "avg_duration": 4.87230827351719,
+      "change_std": 0.5067800766047353,
+      "duration_std": 82.08697792995551
+    },
+    "NPP": {
+      "count": 5330,
+      "total_change": 728.8178370000047,
+      "total_time": 27020.0,
+      "avg_change": 0.1367388061913705,
+      "avg_duration": 5.069418386491558,
+      "change_std": 0.34926442341046676,
+      "duration_std": 74.04040060788299
+    },
+    "NNP": {
+      "count": 5126,
+      "total_change": -718.8293870000022,
+      "total_time": 22404.0,
+      "avg_change": -0.14023203023800276,
+      "avg_duration": 4.37065938353492,
+      "change_std": 0.3140504308621551,
+      "duration_std": 69.3163564126312
+    },
+    "NPN": {
+      "count": 5393,
+      "total_change": -760.7866559999982,
+      "total_time": 20507.0,
+      "avg_change": -0.14106928536992364,
+      "avg_duration": 3.8025217875023176,
+      "change_std": 0.3100346593519038,
+      "duration_std": 50.18525052852416
+    },
+    "NNN": {
+      "count": 4873,
+      "total_change": -2151.4215950000025,
+      "total_time": 23665.0,
+      "avg_change": -0.4414983777960194,
+      "avg_duration": 4.856351323619947,
+      "change_std": 0.5404286686034155,
+      "duration_std": 84.78225202087812
+    },
+    "PPP": {
+      "count": 5261,
+      "total_change": 2218.0399000000048,
+      "total_time": 43628.0,
+      "avg_change": 0.4216004371792444,
+      "avg_duration": 8.292720015206234,
+      "change_std": 0.538030928883356,
+      "duration_std": 134.50746580041397
+    },
+    "PNN": {
+      "count": 5147,
+      "total_change": -723.3152670000015,
+      "total_time": 25054.0,
+      "avg_change": -0.14053142937633603,
+      "avg_duration": 4.867689916456188,
+      "change_std": 0.3509930470560199,
+      "duration_std": 82.98743341427526
+    },
+    "NNO": {
+      "count": 403,
+      "total_change": -66.93289999999985,
+      "total_time": 1487.0,
+      "avg_change": -0.16608660049627755,
+      "avg_duration": 3.6898263027295286,
+      "change_std": 0.20819319673170017,
+      "duration_std": 23.89161985871932
+    },
+    "NOP": {
+      "count": 450,
+      "total_change": 4.828599999999199,
+      "total_time": 1083.0,
+      "avg_change": 0.010730222222220441,
+      "avg_duration": 2.4066666666666667,
+      "change_std": 0.15721072799821564,
+      "duration_std": 1.02261103716581
+    },
+    "ONP": {
+      "count": 440,
+      "total_change": -2.2978000000006773,
+      "total_time": 1557.0,
+      "avg_change": -0.005222272727274267,
+      "avg_duration": 3.5386363636363636,
+      "change_std": 0.14253177669405012,
+      "duration_std": 22.860811207163817
+    },
+    "OPP": {
+      "count": 460,
+      "total_change": 79.67930000000013,
+      "total_time": 1571.0,
+      "avg_change": 0.17321586956521767,
+      "avg_duration": 3.4152173913043478,
+      "change_std": 0.16445622104213958,
+      "duration_std": 22.402430646378185
+    },
+    "PPO": {
+      "count": 492,
+      "total_change": 78.02419999999972,
+      "total_time": 1245.0,
+      "avg_change": 0.158585772357723,
+      "avg_duration": 2.5304878048780486,
+      "change_std": 0.1487057605212674,
+      "duration_std": 1.3347624578766701
+    },
+    "NON": {
+      "count": 407,
+      "total_change": -74.56800000000038,
+      "total_time": 973.0,
+      "avg_change": -0.18321375921376015,
+      "avg_duration": 2.3906633906633905,
+      "change_std": 0.17438404948520936,
+      "duration_std": 1.052532363225779
+    },
+    "POP": {
+      "count": 452,
+      "total_change": 74.55719999999815,
+      "total_time": 1109.0,
+      "avg_change": 0.1649495575221198,
+      "avg_duration": 2.4535398230088497,
+      "change_std": 0.1684764919521775,
+      "duration_std": 1.3254022066814566
+    },
+    "PNO": {
+      "count": 466,
+      "total_change": 3.7038000000009106,
+      "total_time": 1221.0,
+      "avg_change": 0.00794806866952985,
+      "avg_duration": 2.6201716738197427,
+      "change_std": 0.10953021770584757,
+      "duration_std": 1.7269452465817177
+    },
+    "ONN": {
+      "count": 456,
+      "total_change": -81.99740000000025,
+      "total_time": 2058.0,
+      "avg_change": -0.17981885964912336,
+      "avg_duration": 4.5131578947368425,
+      "change_std": 0.2029620443397224,
+      "duration_std": 31.715426024608867
+    },
+    "OOO": {
+      "count": 41,
+      "total_change": -0.00029999999992469384,
+      "total_time": 109.0,
+      "avg_change": -7.3170731688949715e-06,
+      "avg_duration": 2.658536585365854,
+      "change_std": 2.604165426671011e-05,
+      "duration_std": 1.0731707317073171
+    },
+    "PON": {
+      "count": 490,
+      "total_change": -2.2691999999990458,
+      "total_time": 1653.0,
+      "avg_change": -0.004631020408161318,
+      "avg_duration": 3.373469387755102,
+      "change_std": 0.130168610345838,
+      "duration_std": 21.66755569038653
+    },
+    "OOP": {
+      "count": 88,
+      "total_change": 4.365500000000452,
+      "total_time": 214.0,
+      "avg_change": 0.04960795454545968,
+      "avg_duration": 2.4318181818181817,
+      "change_std": 0.04277303000508422,
+      "duration_std": 1.1460946984657245
+    },
+    "OON": {
+      "count": 86,
+      "total_change": -5.346199999999499,
+      "total_time": 201.0,
+      "avg_change": -0.06216511627906394,
+      "avg_duration": 2.3372093023255816,
+      "change_std": 0.061648268553822744,
+      "duration_std": 0.8013138211172117
+    },
+    "OPN": {
+      "count": 472,
+      "total_change": -3.40430000000066,
+      "total_time": 1149.0,
+      "avg_change": -0.007212500000001398,
+      "avg_duration": 2.434322033898305,
+      "change_std": 0.20331492102326845,
+      "duration_std": 1.4511567442196478
+    },
+    "NOO": {
+      "count": 98,
+      "total_change": -4.54469999999975,
+      "total_time": 243.0,
+      "avg_change": -0.04637448979591582,
+      "avg_duration": 2.479591836734694,
+      "change_std": 0.05013511806623218,
+      "duration_std": 1.0023400359600843
+    },
+    "POO": {
+      "count": 111,
+      "total_change": 5.844499999999755,
+      "total_time": 293.0,
+      "avg_change": 0.052653153153150944,
+      "avg_duration": 2.6396396396396398,
+      "change_std": 0.0707005062864227,
+      "duration_std": 1.279025479201535
+    },
+    "OPO": {
+      "count": 76,
+      "total_change": 3.790000000000532,
+      "total_time": 192.0,
+      "avg_change": 0.04986842105263858,
+      "avg_duration": 2.526315789473684,
+      "change_std": 0.054009587868436515,
+      "duration_std": 0.9797110773150676
+    },
+    "ONO": {
+      "count": 77,
+      "total_change": -3.3603000000005068,
+      "total_time": 206.0,
+      "avg_change": -0.04364025974026632,
+      "avg_duration": 2.675324675324675,
+      "change_std": 0.048457731640852666,
+      "duration_std": 1.25296073716284
+    }
+  }
+}

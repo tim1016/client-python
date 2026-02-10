@@ -1,0 +1,20 @@
+{
+  "symbol": "SPY",
+  "start_date": "2025-08-01",
+  "end_date": "2025-09-10",
+  "fetch_timestamp": "2025-09-11T01:23:02.357346",
+  "bars_count": 23152,
+  "data_file": "market_data/raw/SPY_2025-08-01_to_2025-09-10_raw.csv",
+  "api_source": "polygon.io",
+  "timeframe": "1minute",
+  "config_used": {
+    "chunk_days": 5,
+    "adjusted": true,
+    "data_quality": {
+      "remove_duplicates": true,
+      "validate_timestamps": true,
+      "check_gaps": true,
+      "log_anomalies": true
+    }
+  }
+}

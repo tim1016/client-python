@@ -1,0 +1,48 @@
+{
+  "symbol": "SPY",
+  "data_file": "../project2/data-fetcher/market_data/raw/SPY_2025-08-01_to_2025-09-10_raw.csv",
+  "analysis_timestamp": "2025-09-11T01:46:06.885991",
+  "bars_analyzed": 23152,
+  "date_range": {
+    "start": "2025-08-01 03:00:00",
+    "end": "2025-09-10 19:00:00"
+  },
+  "offset_results": [
+    {
+      "offset": 0,
+      "total_patterns": 7717,
+      "unique_patterns": 27,
+      "total_baskets": 7717,
+      "change_discrepancy": 0.0,
+      "mathematical_consistency": {
+        "change_matches": true,
+        "time_matches": false
+      },
+      "top_pattern": "PPP"
+    },
+    {
+      "offset": 1,
+      "total_patterns": 7716,
+      "unique_patterns": 27,
+      "total_baskets": 7717,
+      "change_discrepancy": 0.0,
+      "mathematical_consistency": {
+        "change_matches": true,
+        "time_matches": false
+      },
+      "top_pattern": "PPP"
+    },
+    {
+      "offset": 2,
+      "total_patterns": 7716,
+      "unique_patterns": 27,
+      "total_baskets": 7716,
+      "change_discrepancy": 0.0,
+      "mathematical_consistency": {
+        "change_matches": true,
+        "time_matches": false
+      },
+      "top_pattern": "PPP"
+    }
+  ]
+}

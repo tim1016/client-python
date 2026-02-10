@@ -1,0 +1,264 @@
+{
+  "offset": 0,
+  "total_baskets": 48024,
+  "remainder_bars": 1,
+  "total_contiguous_change": 64.65999999999997,
+  "remainder_change": 0.0,
+  "accounted_total_change": 64.65999999999997,
+  "actual_total_change": 64.65999999999997,
+  "change_discrepancy": 0.0,
+  "total_contiguous_time": 250573.0,
+  "remainder_time": 0.0,
+  "accounted_total_time": 250573.0,
+  "actual_total_time": 362400.0,
+  "time_discrepancy": 111827.0,
+  "mathematical_consistency": {
+    "change_matches": true,
+    "time_matches": false
+  },
+  "pattern_type_breakdown": {
+    "PNN": {
+      "count": 5251,
+      "total_change": -755.5223999999945,
+      "total_time": 30112.0,
+      "avg_change": -0.14388162254808504,
+      "avg_duration": 5.734526756808227,
+      "change_std": 0.44496954339905864,
+      "duration_std": 105.5073458334259
+    },
+    "POP": {
+      "count": 513,
+      "total_change": 88.89510000000075,
+      "total_time": 1248.0,
+      "avg_change": 0.1732847953216389,
+      "avg_duration": 2.4327485380116958,
+      "change_std": 0.1837758497890838,
+      "duration_std": 1.1290336606772657
+    },
+    "NPP": {
+      "count": 5290,
+      "total_change": 673.1470770000028,
+      "total_time": 29656.0,
+      "avg_change": 0.1272489748582236,
+      "avg_duration": 5.606049149338374,
+      "change_std": 0.2913177995430178,
+      "duration_std": 106.15302024115445
+    },
+    "PPN": {
+      "count": 5275,
+      "total_change": 677.7501919999902,
+      "total_time": 29196.0,
+      "avg_change": 0.12848344872037729,
+      "avg_duration": 5.53478672985782,
+      "change_std": 0.3013171497160106,
+      "duration_std": 95.71309058490749
+    },
+    "NPN": {
+      "count": 5337,
+      "total_change": -731.038493999998,
+      "total_time": 22733.0,
+      "avg_change": -0.13697554693648079,
+      "avg_duration": 4.259509087502342,
+      "change_std": 0.28048988721177665,
+      "duration_std": 67.62107660971957
+    },
+    "NNP": {
+      "count": 5225,
+      "total_change": -727.7207580000043,
+      "total_time": 34778.0,
+      "avg_change": -0.1392767000956946,
+      "avg_duration": 6.656076555023923,
+      "change_std": 0.39217392564962283,
+      "duration_std": 114.92562435302207
+    },
+    "PPP": {
+      "count": 5308,
+      "total_change": 2260.0545960000086,
+      "total_time": 27855.0,
+      "avg_change": 0.4257827045968366,
+      "avg_duration": 5.247739261492088,
+      "change_std": 0.5528773358048132,
+      "duration_std": 71.20241006795976
+    },
+    "PNP": {
+      "count": 5442,
+      "total_change": 772.8081470000004,
+      "total_time": 25356.0,
+      "avg_change": 0.142008112274899,
+      "avg_duration": 4.659316427783903,
+      "change_std": 0.31974843697477345,
+      "duration_std": 72.12116980143614
+    },
+    "NNN": {
+      "count": 4847,
+      "total_change": -2127.823859000001,
+      "total_time": 25932.0,
+      "avg_change": -0.4389981140911906,
+      "avg_duration": 5.350113472250877,
+      "change_std": 0.47820480675604254,
+      "duration_std": 100.48704670804248
+    },
+    "NON": {
+      "count": 404,
+      "total_change": -73.05330000000123,
+      "total_time": 978.0,
+      "avg_change": -0.18082500000000304,
+      "avg_duration": 2.4207920792079207,
+      "change_std": 0.2590978953026177,
+      "duration_std": 0.9780579698629874
+    },
+    "OPO": {
+      "count": 77,
+      "total_change": 4.289599999999496,
+      "total_time": 195.0,
+      "avg_change": 0.05570909090908436,
+      "avg_duration": 2.5324675324675323,
+      "change_std": 0.0655536187433134,
+      "duration_std": 1.1575210366315423
+    },
+    "PPO": {
+      "count": 468,
+      "total_change": 86.62330000000031,
+      "total_time": 1650.0,
+      "avg_change": 0.18509252136752202,
+      "avg_duration": 3.5256410256410255,
+      "change_std": 0.26779116171043543,
+      "duration_std": 22.186885530564023
+    },
+    "PON": {
+      "count": 447,
+      "total_change": -7.453299999998933,
+      "total_time": 1098.0,
+      "avg_change": -0.01667404921699985,
+      "avg_duration": 2.4563758389261743,
+      "change_std": 0.12350100977742152,
+      "duration_std": 1.252201041012182
+    },
+    "ONP": {
+      "count": 487,
+      "total_change": 2.940200000000573,
+      "total_time": 1154.0,
+      "avg_change": 0.006037371663245529,
+      "avg_duration": 2.3696098562628336,
+      "change_std": 0.1174288867755911,
+      "duration_std": 0.8780581359384235
+    },
+    "OPN": {
+      "count": 478,
+      "total_change": -3.8921000000000845,
+      "total_time": 1158.0,
+      "avg_change": -0.008142468619247039,
+      "avg_duration": 2.422594142259414,
+      "change_std": 0.18942112746772713,
+      "duration_std": 1.067429539935631
+    },
+    "NPO": {
+      "count": 471,
+      "total_change": -4.5866000000011695,
+      "total_time": 1160.0,
+      "avg_change": -0.009738004246286984,
+      "avg_duration": 2.462845010615711,
+      "change_std": 0.10287316567489253,
+      "duration_std": 1.0914644593387006
+    },
+    "NNO": {
+      "count": 404,
+      "total_change": -69.64580000000035,
+      "total_time": 1941.0,
+      "avg_change": -0.1723905940594068,
+      "avg_duration": 4.804455445544554,
+      "change_std": 0.16797868930326812,
+      "duration_std": 33.67570855209492
+    },
+    "PNO": {
+      "count": 467,
+      "total_change": 2.741900000000669,
+      "total_time": 1665.0,
+      "avg_change": 0.0058713062098515395,
+      "avg_duration": 3.565310492505353,
+      "change_std": 0.10570030150237972,
+      "duration_std": 22.201759196361678
+    },
+    "OOO": {
+      "count": 41,
+      "total_change": 9.999999997489795e-05,
+      "total_time": 106.0,
+      "avg_change": 2.439024389631657e-06,
+      "avg_duration": 2.5853658536585367,
+      "change_std": 2.6939904913206458e-05,
+      "duration_std": 0.9099882003013477
+    },
+    "NOP": {
+      "count": 447,
+      "total_change": 2.7757999999989806,
+      "total_time": 1626.0,
+      "avg_change": 0.006209843400445147,
+      "avg_duration": 3.6375838926174495,
+      "change_std": 0.11244113226597724,
+      "duration_std": 22.693132755349385
+    },
+    "ONO": {
+      "count": 63,
+      "total_change": -3.825099999999793,
+      "total_time": 168.0,
+      "avg_change": -0.06071587301586973,
+      "avg_duration": 2.6666666666666665,
+      "change_std": 0.05922873928737295,
+      "duration_std": 1.234426799696735
+    },
+    "ONN": {
+      "count": 433,
+      "total_change": -84.20479999999924,
+      "total_time": 4383.0,
+      "avg_change": -0.1944683602771345,
+      "avg_duration": 10.122401847575057,
+      "change_std": 0.22518433955725461,
+      "duration_std": 161.2707799432842
+    },
+    "OPP": {
+      "count": 435,
+      "total_change": 83.4112999999993,
+      "total_time": 5367.0,
+      "avg_change": 0.19175011494252714,
+      "avg_duration": 12.337931034482759,
+      "change_std": 0.3712534022213222,
+      "duration_std": 164.03375966051334
+    },
+    "POO": {
+      "count": 110,
+      "total_change": 7.09409999999923,
+      "total_time": 308.0,
+      "avg_change": 0.06449181818181118,
+      "avg_duration": 2.8,
+      "change_std": 0.06048372302727634,
+      "duration_std": 1.5183723342627606
+    },
+    "OOP": {
+      "count": 99,
+      "total_change": 5.758799999999837,
+      "total_time": 246.0,
+      "avg_change": 0.058169696969695324,
+      "avg_duration": 2.484848484848485,
+      "change_std": 0.06274411148602595,
+      "duration_std": 1.076504222323128
+    },
+    "OON": {
+      "count": 110,
+      "total_change": -8.866001000000153,
+      "total_time": 256.0,
+      "avg_change": -0.08060000909091049,
+      "avg_duration": 2.327272727272727,
+      "change_std": 0.17893445180748513,
+      "duration_std": 0.7020630755021027
+    },
+    "NOO": {
+      "count": 95,
+      "total_change": -5.99770000000035,
+      "total_time": 248.0,
+      "avg_change": -0.06313368421053,
+      "avg_duration": 2.610526315789474,
+      "change_std": 0.0833140205683858,
+      "duration_std": 1.378746469897511
+    }
+  }
+}

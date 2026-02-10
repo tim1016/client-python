@@ -1,0 +1,39 @@
+{
+  "api": {
+    "key": "Z_ENWpm0RRrvXvLOY65uMH8RB93B4gBN",
+    "base_url": "https://api.polygon.io",
+    "rate_limit_delay": 0.5,
+    "retry_count": 3,
+    "timeout": 30
+  },
+  "storage": {
+    "output_dir": "market_data",
+    "create_subdirs": true,
+    "raw_data_dir": "raw",
+    "metadata_dir": "metadata",
+    "log_dir": "logs"
+  },
+  "fetch_settings": {
+    "symbols": ["SPY"],
+    "start_date": "2025-08-01",
+    "end_date": "2025-09-10",
+    "chunk_days": 5,
+    "timeframe": "minute",
+    "multiplier": 1,
+    "adjusted": true,
+    "sort": "asc",
+    "limit": 50000
+  },
+  "data_quality": {
+    "remove_duplicates": true,
+    "validate_timestamps": true,
+    "check_gaps": true,
+    "log_anomalies": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(levelname)s - %(message)s",
+    "file_logging": true,
+    "console_logging": true
+  }
+}
